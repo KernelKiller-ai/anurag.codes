@@ -64,10 +64,21 @@ const portfolioData = {
     },
   ],
   socialLinks: [
-    { name: "github", icon: "github", url: "https://github.com" },
-    { name: "linkedin", icon: "linkedin", url: "https://linkedin.com" },
-    { name: "twitter", icon: "twitter", url: "https://twitter.com" },
-    { name: "code", icon: "code-2", url: "#" },
+    {
+      name: "GitHub",
+      iconClass: "fa-brands fa-github",
+      url: "https://github.com/KernelKiller-ai",
+    },
+    {
+      name: "LinkedIn",
+      iconClass: "fa-brands fa-linkedin-in",
+      url: "https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME",
+    },
+    {
+      name: "Instagram",
+      iconClass: "fa-brands fa-instagram",
+      url: "https://www.instagram.com/YOUR_INSTAGRAM_USERNAME",
+    },
   ],
 };
 

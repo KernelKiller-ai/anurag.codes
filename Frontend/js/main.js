@@ -166,7 +166,7 @@ function renderContactInfo() {
     `;
 }
 
-// 5. Render Footer Social Media Icons
+// 5. Render Footer Social Media Icons (Font Awesome)
 function renderFooterSocials() {
   const container = document.getElementById("footer-socials");
   if (!container || !window.portfolioData || !window.portfolioData.socialLinks)
@@ -175,9 +175,15 @@ function renderFooterSocials() {
   container.innerHTML = portfolioData.socialLinks
     .map(
       (s) => `
-        <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-lg bg-slate-800 hover:bg-purple-600 hover:text-white border border-slate-700 text-slate-300 flex items-center justify-center transition-all">
-            <i data-lucide="${s.icon}" class="w-4 h-4"></i>
-        </a>
+      <a 
+        href="${s.url}" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="w-10 h-10 rounded-xl bg-slate-800 hover:bg-purple-600 text-slate-300 hover:text-white flex items-center justify-center transition-all border border-slate-700/60 shadow-sm text-base" 
+        title="${s.name}"
+      >
+        <i class="${s.iconClass}"></i>
+      </a>
     `,
     )
     .join("");

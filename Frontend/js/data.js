@@ -4,7 +4,7 @@ const portfolioData = {
     title: "Software Developer",
     location: "Sheikhpura, Bihar",
     email: "devanuragai@gmail.com",
-    github: "https://github.com",
+    github: "https://github.com/KernelKiller-ai",
     linkedin: "https://linkedin.com",
   },
   heroSkills: [
@@ -37,29 +37,17 @@ const portfolioData = {
   projects: [
     {
       title: "BiharFast — Public Information & Exam Portal",
-      description: "A centralized platform for Bihar government notices, jobs, admit cards, citizen services, and real-time Class 10 mock tests with district leaderboards.",
+      category: "Full Stack",
+      description:
+        "A centralized platform for Bihar government notices, jobs, admit cards, citizen services, and real-time Class 10 mock tests with district leaderboards.",
+      tech: ["React", "FastAPI", "Python", "Supabase", "Redis"],
       tags: ["React", "FastAPI", "Python", "Supabase", "Redis"],
-      liveUrl: "https://bihar-fast-portal.onrender.com", // Agar frontend live link (Vercel) alag hai toh wo replace karein
-      githubUrl: "https://github.com/KernelKiller-ai/bihar_fast", // Apne repo ka URL verify karein
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80"
-    },
-    {
-      title: "Task Management App",
-      category: "SaaS",
-      tech: ["JavaScript", "CSS3", "APIs"],
-      description:
-        "Collaborative task management tool with real-time updates, drag-and-drop workflow, and priority tracking.",
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Automated Data Integrator",
-      category: "Python",
-      tech: ["Python", "REST API", "JSON"],
-      description:
-        "Intelligent backend tool powered by Python for parsing structured data and integrating third-party API services.",
-      github: "#",
-      live: "#",
+      live: "https://bihar-fast-portal.onrender.com",
+      liveUrl: "https://bihar-fast-portal.onrender.com",
+      github: "https://github.com/KernelKiller-ai/bihar_fast",
+      githubUrl: "https://github.com/KernelKiller-ai/bihar_fast",
+      image:
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80",
     },
   ],
   socialLinks: [

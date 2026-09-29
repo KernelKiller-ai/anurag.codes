@@ -36,13 +36,12 @@ const portfolioData = {
   ],
   projects: [
     {
-      title: "E-Commerce Platform",
-      category: "Web App",
-      tech: ["HTML", "Tailwind", "JavaScript"],
-      description:
-        "A feature-rich e-commerce store with interactive product selection, dynamic filtering, and clean UI components.",
-      github: "#",
-      live: "#",
+      title: "BiharFast — Public Information & Exam Portal",
+      description: "A centralized platform for Bihar government notices, jobs, admit cards, citizen services, and real-time Class 10 mock tests with district leaderboards.",
+      tags: ["React", "FastAPI", "Python", "Supabase", "Redis"],
+      liveUrl: "https://bihar-fast-portal.onrender.com", // Agar frontend live link (Vercel) alag hai toh wo replace karein
+      githubUrl: "https://github.com/KernelKiller-ai/bihar_fast", // Apne repo ka URL verify karein
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop&q=80"
     },
     {
       title: "Task Management App",
